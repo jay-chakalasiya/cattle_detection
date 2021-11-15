@@ -52,6 +52,7 @@ Root
 
 
 ## How to Run
+- Running on Anaconda is recommended
 - install dependencies
 ```
 pip install -r requirements.txt
@@ -59,3 +60,9 @@ pip install -r requirements.txt
 - install `pytorch` (preferably with GPU access)
 - set config file, only changing `ROOT` variable is suffice
 - Download the dataset and structure it according to directory structure presented before
+- First you will need to run `data_prep.py` in order to experiment with other nitebooks
+```
+python data_prep.py
+```
+- Read through `Data Exploration.ipynb` -> to explore data
+- Read through `Model.ipynb`-> to explore major contributions
