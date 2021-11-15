@@ -4,3 +4,5 @@ NWAFU_CattleDataset/
 .ipynb_checkpoints/
 __pycache__/
 NWAFU_CattleDataset.zip
+Augmentations.ipynb
+Key-point Detection Training.ipynb
