@@ -1,8 +1,8 @@
 import os
 
 # Data path dependencies
-ROOT = os.path.join('D:\\', 'projects', 'at_home_brdgai')
-DATA_PATH = os.path.join('D:\\', 'projects', 'at_home_brdgai', 'NWAFU_CattleDataset')
+ROOT = os.path.join('D:\\', 'projects', 'cattle_detection')
+DATA_PATH = os.path.join(ROOT , 'NWAFU_CattleDataset')
 IMAGE_PATH = os.path.join(DATA_PATH, 'images')
 ANNOTATION_PATH = os.path.join(DATA_PATH, 'annotations')
 DATA_PREP_PATH = os.path.join(ROOT, 'data')
@@ -47,3 +47,5 @@ NO_OF_IMAGES = MAX_IMAGE_ID - len(MISSING_IMAGES)
 
 # Plot Colros
 PLOT_COLORS = {-1: 'red', 0: 'blue', 1: 'red'}
+MASK_COLORS = ['red', 'blue', 'green', 'yellowgreen', 'turquoise', 'gold', 'coral', 'purple',
+               'teal', 'chartreuse', 'beige', 'cyan', 'ivory', 'orange', 'orchid', 'pink']
