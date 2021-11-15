@@ -1,0 +1,5 @@
+numpy == 1.21.2
+matplotlib == 3.4.3
+albumentations == 1.1.0
+tqdm
+opencv-python == 4.5.4

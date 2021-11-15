@@ -1,0 +1,6 @@
+data/
+NWAFU_CattleDataset/
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+NWAFU_CattleDataset.zip
